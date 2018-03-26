@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "995176662397",
+    "firebase_url": "https://snake-bea2a.firebaseio.com",
+    "project_id": "snake-bea2a",
+    "storage_bucket": "snake-bea2a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995176662397:android:7c5f788c295a3b87",
+        "android_client_info": {
+          "package_name": "snake.snake"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "995176662397-luaj9brvq85bofvfvp6d2jkeq6uiv8es.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "snake.snake",
+            "certificate_hash": "995a7bc2c6530a716b5396cd020bf3eabe02ac4f"
+          }
+        },
+        {
+          "client_id": "995176662397-gqmbqh68vmb7m1f2n8beegkejfd1ltsj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtbdc2Qx9efYdd6iqjgWwNVp7lDFnrMEo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "995176662397-gqmbqh68vmb7m1f2n8beegkejfd1ltsj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

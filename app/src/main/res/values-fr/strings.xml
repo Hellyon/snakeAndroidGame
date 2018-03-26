@@ -1,0 +1,24 @@
+<resources>
+    <string name="launch_game">Jouer !</string>
+    <string name="score">Votre Score : %d</string>
+    <string name="launch_settings">Paramètres</string>
+    <string name="EasyMode">Facile</string>
+    <string name="MediumMode">Normal</string>
+    <string name="HardMode">Difficile</string>
+    <string name="Difficulty_text">Difficulté : </string>
+    <string name="text_music">Activer/Désactiver Musique</string>
+    <string name="toggleMusic_ON">Activé</string>
+    <string name="toggleMusic_OFF">Désactivé</string>
+    <string name="tutorial_text_left">Tapez à gauche pour tourner à gauche</string>
+    <string name="tutorial_text_right">Tapez à droite pour tourner à droite</string>
+    <string name="tutorial_title">Comment jouer?</string>
+    <string name="text_button_tutorial">Comment jouer?</string>
+    <string name="bestScores">Meilleurs Scores</string>
+    <string name="yourScores">Vos scores</string>
+    <string name="pause">En pause !</string>
+    <string name="player">Joueur</string>
+    <string name="length">Longueur : %d</string>
+    <string name="your_nickname">Votre Pseudo :</string>
+    <string name="press_to_update">Touchez pour afficher les scores ! ;)</string>
+    <string name="unknown">Inconnu</string>
+</resources>

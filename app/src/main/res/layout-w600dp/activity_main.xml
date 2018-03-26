@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grass"
+    android:orientation="vertical">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <!-- Snake Label -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/app_name"
+            android:textColor="@color/text_color"
+            android:textSize="80sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <!-- Button Play -->
+        <Button
+            android:id="@+id/button_play"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/play_button"
+            android:shadowColor="#A2A800"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="25"
+            android:text="@string/launch_game"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+
+        <!-- Button Tutorial -->
+        <Button
+            android:id="@+id/button_tutorial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/other_button"
+            android:text="@string/text_button_tutorial" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <!-- Button Global Scores -->
+        <Button
+            android:id="@+id/button_scores"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/other_button"
+            android:text="@string/bestScores" />
+        <!-- Button Your Scores -->
+        <Button
+            android:id="@+id/button_yourScores"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/other_button"
+            android:text="@string/yourScores" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+        <!-- NickName EditText -->
+        <EditText
+            android:id="@+id/nickname_edit"
+            android:layout_width="89dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:width="100dp"
+            android:background="@drawable/edit_text"
+            android:inputType="textPersonName"
+            android:text="@string/player_name"
+            android:textAlignment="center" />
+        <!-- Button Settings -->
+        <Button
+            android:id="@+id/button_settings"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/other_button"
+            android:text="@string/launch_settings" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Not Shown Your NickName Label -->
+        <TextView
+            android:layout_width="194dp"
+            android:layout_height="wrap_content"
+            android:width="50dp"
+            android:text="@string/your_nickname"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:visibility="invisible" />
+    </TableRow>
+
+</TableLayout>
